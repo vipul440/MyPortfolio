@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js crossorigin="anonymous"></script> -->
+
+    <script
+      src="https://kit.fontawesome.com/63746efcd0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="image/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi,I'm <span>Vipul Kumar</span><br />
+            from India
+          </h1>
+        </div>
+      </div>
+
+      <!--------about------>
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="image/user.png" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+               👋 Hi there! I'm [Vipul Kumar], an aspiring Full Stack Developer with a passion for creating innovative web applications and a strong commitment to continuous learning. I'm currently honing my skills through a comprehensive Full Stack Developer course, which I'm pursuing in a virtual environment to stay ahead in the fast-paced world of technology.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </p>
+    
+                <p class="tab-links" onclick="opentab('internship')">
+                  Internship
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br />Designing Web Interfaces</li>
+                  <li><span>Web Development</span><br />Web  Development</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="internship">
+                <ul>
+                  <li>
+                    <span>13 jan 2023-02 may 2023</span><br />Internship as Java Trainee Application Developer at Mantic Technologies,Indore.
+                  </li>
+                  <li>
+                    <span>28 oct 2023-current</span><br />Full Stack Developer Course at Newton School Bangalore(Virtual).
+                  </li>
+                  
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>july 2017-july 2020</span><br />Master of Computer Application.
+                  </li>
+                  <li><span>july 2012-july 2015</span><br />Bachelor of Computer Application.</li>
+                  <li><span>2012</span><br />Secondary School Graduation.</li>
+                  <li><span>2010</span><br />Matriculation.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------services------>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web App Design</h2>
+            <p>
+              Wev App design refers to the process of conceptualizing, planning, and creating the user interface (UI) and user experience (UX) of a software application. This design process is crucial for building applications that are not only visually appealing but also intuitive, efficient, and user-friendly.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------portfolio------>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/work-1.png" />
+            <div class="layer">
+              <h3>Booking and Reservation Systems</h3>
+              <p>
+                Creating a booking and reservation system similar to RedBus, a popular platform for booking bus tickets, involves a complex development process.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-2.png" />
+            <div class="layer">
+              <h3>E-commerce Websites</h3>
+              <p>
+                Developing and running an e-commerce website requires continuous effort, from optimizing the user experience to marketing and scaling the business. It's essential to stay up-to-date with e-commerce trends and technology to remain competitive in the online marketplace.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work-3.png" />
+            <div class="layer">
+              <h3>Educational Websites</h3>
+              <p>
+                 Building a successful educational website takes time and effort. It's essential to provide valuable content and a positive user experience to attract and retain users. Additionally, staying current with educational trends and technology advancements can help your website remain competitive in the educational space.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!--------contact------>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>vipul887784@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9304507452</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100005545201432"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+              <a href="https://www.instagram.com/vipul887784"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/vipul-kumar-77029917b"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+              <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required/>
+              <input type="email" name="Email" placeholder="Your email" required/>
+              <textarea name="Message rows="10" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @  Vipul Kumar <i class="fa-solid fa-heart"></i> Choudhary</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+      <script>
+
+         var sidemenu=document.getElementById("sidemenu");
+
+         function openmenu(){
+          sidemenu.style.right= "0" ;
+         }
+          function closemenu(){
+          sidemenu.style.right= "-200px" ;
+         }
+
+      </script>
+
+      <script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxqbxVCnUURm51rxTh0s31xGC0mbx2f4yG0blgaj1n4C7CV1lhS0a7JsAIaO5GubB-1/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
+
+
